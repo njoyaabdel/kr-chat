@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    height: 440px;
+    gap: 15px;
+
+}
+input{
+    
+    outline: red;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.form-controle{
+    margin: 0;
+}
+.error{
+ color: red;
+}
